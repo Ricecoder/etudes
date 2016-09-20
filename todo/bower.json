@@ -1,0 +1,22 @@
+{
+  "name": "todo",
+  "description": "To Do app",
+  "main": "index.js",
+  "authors": [
+    "Lacey Rice"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Ricecoder/etudes",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-route": "~1.4.8"
+  }
+}

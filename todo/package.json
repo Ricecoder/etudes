@@ -1,0 +1,25 @@
+{
+  "name": "todo",
+  "version": "0.0.0",
+  "description": "To Do app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server 'public'",
+    "start:dev": "browser-sync start --server --directory --startPath='src/index.html'",
+    "sass": "node-sass src/scss/main.scss public/css/main.css",
+    "sass:dev": "node-sass src/scss/main.scss src/css/main.css --watch='src/scss/*.scss'",
+    "wiredep": "wiredep --src src/index.html --src src/scss/main.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ricecoder/etudes"
+  },
+  "author": "Lacey Rice",
+  "license": "MIT",
+  "dependencies": {
+    "angularjs": "0.0.1",
+    "browser-sync": "^2.10.0",
+    "node-sass": "^3.4.2"
+  }
+}
